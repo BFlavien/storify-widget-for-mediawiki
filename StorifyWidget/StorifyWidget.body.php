@@ -20,18 +20,18 @@ class StorifyWidget {
 		*/
 		
 		if( isset($args['src']) && $args['src'] ){
-			$src = $args['src'];
+			$src = htmlspecialchars( $args['src'] );
 		}
 		else{
 			return wfMessage( 'no-src-parameter' )->text();
 		}
 		
 		if( isset($args['width']) && $args['width'] ){
-			$width = $args['width'];
+			$width = htmlspecialchars( $args['width'] );
 		}
 		
 		if( isset($args['height']) && $args['height'] ){
-			$height = $args['height'];
+			$height = htmlspecialchars( $args['height'] );
 		}
 		
 		$wgOut->addModules( 'StorifyWidget' );
