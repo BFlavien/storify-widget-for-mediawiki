@@ -38,7 +38,7 @@ Default values
 Troubleshooting
 ===============
 
-Storify widget is an extremely simple extension; all it does is convert a `storifywidget` tag into the export link from Storify but add the possibility to set the width and height.
+Storify widget is an extremely simple extension; all it does is convert a `<storifywidget />` tag into the export link from Storify but add the possibility to set the width and height.
 
 Wiki Compatibility
 ==================
