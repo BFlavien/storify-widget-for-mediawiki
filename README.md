@@ -16,7 +16,7 @@ Installation
 Configuration parameters
 ========================
 
-Just insert the `<storifywidget/>` tag where you want the story to appear.
+Just insert the `<storifywidget/>` tag where you want the story to appear. If you miss the `/` in the tag, it can remove page content.
 
 You can configure it with the following parameters :
 
